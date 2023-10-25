@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>훼스티발</title>
+    <style media="screen">
+    h1 {
+      font-family: '맑은고딕';
+      font-size: 30px;
+      color: red;
+      text-align: center;
+    }
+
+    h3 {
+      color: blue;
+      text-decoration: underline;
+      text-align: center;
+    }
+
+    p {
+      font-size: 16px;
+      text-height: 200%;
+      text-align: center;
+    }
+
+    .green {
+      color: green;
+      text-decoration: underline;
+    }
+
+    li {
+      list-style: none; /* 기본 목록 마커 스타일을 제거합니다. */
+      text-align: center; /* 텍스트를 가운데 정렬합니다. */
+    }
+      li::before {
+        content: url(./img/요구르트.jpg); /* li::before 가상 요소를 사용하여 이미지를 삽입합니다. */
+        display: inline-block; /* 이미지를 인라인 블록 요소로 만듭니다. */
+        vertical-align: middle; /* 이미지를 수직 가운데 정렬합니다. */
+      }
+
+    .center {
+     width: 300px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    font-weight: bold;
+    }
+    .image {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    }
+
+    div {
+      background-color:
+    }
+
+    </style>
+
+  </head>
+  <body>
+    <h1>제 100회 전국 야쿠르트대회</h1>
+    <div class="image">
+      <img src="./img/한국야쿠르트.jpg" width="200px">
+    </div>
+    <h3>전국의 프레시매니져여, 집결하라!</h3>
+    <p>전국 한국야쿠르트 프레시매니져가 모이는 날, <br>
+      프레시매니져라면 참가하여 의견도 나누고 경품도 얻어갈 수 있는 기회입니다.</p>
+    <ul>
+      <li><b>일시 :</b> 2060 / 11 / 1 ~ 2060 / 11/ 15 </li>
+      <li><b>장소 : </b><span class="green">코엑스</span></li>
+      <li><b>프로그램 : </b> </li>
+      <div class="image">
+        <img src="./img/야쿠르트카.jpg" width="200px">
+      </div>
+      <p>신규 무장기기 발표</p><br><br>
+      <div class="image">
+        <img src="./img/의복.jpg" height="200px">
+      </div>
+      <p>신규 제복 발표</p><br><br>
+      <div class="image">
+        <img src="./img/집결.jpg" height="200px">
+      </div>
+      <p>100회기념 신규비전구성회의</p><br><br>
+      <div class="image">
+        <img src="./img/비전선포식.jpeg" height="200px">
+      </div>
+      <p>신규비전선포식</p>
+    </ul>
+    <br>
+    <br>
+    <br>
+    <a href="index.html">←...</a>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+  </body>
+
+</html>
