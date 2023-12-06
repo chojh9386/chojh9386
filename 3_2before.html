@@ -1,0 +1,292 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>모이라이프/모이워크</title>
+    <style media="screen">
+      .clear {
+        clear: both;
+      }
+
+      body {
+        font-family: 'Noto Sans KR'
+      }
+
+      header {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        width: auto;
+        height: 100px;
+        margin-top: 10px;
+        border-bottom: solid 2px black;
+      }
+      #top {
+        margin: 0;
+        text-align: center;
+        font-size: 30px;
+        font-weight: bold;
+      }
+
+      nav {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: auto;
+        height: 70px;
+        margin-bottom: 10px;
+        border-bottom: solid 2px black;
+      }
+      nav ul {
+        list-style: none;
+        padding: 0;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        display: flex;
+      }
+      nav li {
+        margin-right: 40px;
+        margin-left: 40px;
+        align: center;
+      }
+      nav a {
+        text-decoration: none;
+        color: black;
+        display: inline-block;
+        transition: color 3s;
+      }
+      nav li:hover {
+        background-color: #F2F2F2;
+      }
+      nav .active {
+        background-color: #F2F2F2;
+        font-weight: bold;
+      }
+
+      section {
+        width: auto;
+        height: auto;
+        margin-top: 10px;
+        float: left;
+      }
+
+      .image-container {
+        text-align: center;
+        margin-top: 20px;
+        float: left;
+        margin-left: 150px;
+        margin-right: 20px;
+      }
+      .image-container img {
+        width: 200px;
+        height: auto;
+        border: solid 1px gray;
+      }
+      .image-description{
+        margin-top: 10px;
+        text-align: center;
+        font-size: 12px;
+        color: gray;
+      }
+      .qwerty {
+        float: left;
+        width: 500px;
+        margin-right: auto;
+      }
+      .content {
+        display: flex;
+        justify-content: space-between;
+        margin-bottom: 200px;
+      }
+      .content div {
+        width: auto;
+        height: auto;
+      }
+      .content div:first-child {
+        flex: 1;
+        margin-bottom: 20px;
+      }
+      .border {
+        text-align: center;
+        clear: both;
+        margin: auto;
+        border-bottom: solid 1px black;
+        width: 80%;
+      }
+
+
+      footer {
+        justify-content: space-between;
+        width: auto;
+        height: 130px;
+        margin-top: 10px;
+        border-top: solid 2px black;
+
+      }
+      footer h3 {
+        font-size: 20px;
+
+      }
+      .left {
+        float: left;
+        margin-left: 10px;
+      }
+      .right {
+        float: right;
+        margin-right: 10px;
+      }
+
+    </style>
+  </head>
+  <body>
+    <header>
+      <a href="index.html"> <img src="./img/main_logo.png" height="80px;"> </a>
+      <div id="top" style="display: flex; justify-content: center; width: auto;">
+        <h3 style=>살아온 길</h3>
+      </div>
+    </header>
+
+    <nav>
+      <ul>
+        <li> <a href="2_1about.html">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;나에 대하여&nbsp;&nbsp;&nbsp;&nbsp;</a></li>
+        <li class="active"> <a href="3_1before.html">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;살아온 길&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</a></li>
+        <li> <a href="4_1have.html">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;가진것들&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</a></li>
+        <li> <a href="5_1fut.html">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;살아갈 길&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</a></li>
+        <li> <a href="6works.html">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;작업 엿보기&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</a></li>
+      </ul>
+    </nav>
+
+    <nav>
+      <ul>
+        <li> <a href="3_1before.html">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;영아&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</a> </li>
+        <li class="active"> <a href="3_2before.html">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;초중등&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</a> </li>
+        <li> <a href="3_3before.html">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;고등&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</a> </li>
+        <li> <a href="3_4before.html">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;대학&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</a> </li>
+      </ul>
+    </nav>
+
+    <section>
+      <div class="image-container">
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3261.45928041571!2d129.17942137550097!3d35.170103772756605!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x35688d0be46e1f19%3A0xc4b05849fafb4217!2z7Iug6rOh7LSI65Ox7ZWZ6rWQ!5e0!3m2!1sko!2skr!4v1701871337047!5m2!1sko!2skr"
+        width="350"
+        height="250"
+        style="border:0;"
+        allowfullscreen=""
+        loading="lazy"
+        referrerpolicy="no-referrer-when-downgrade">
+        </iframe>
+        <p class="image-description">내가 처음 다녔던 학교인 신곡초등학교의 위치</p>
+      </div>
+      <div class="qwerty">
+        <h3>초등학교에 발을 뻗다</h3>
+        <p>유치원을 다닐때 쯤 부산광역시 해운대구 좌2동으로 이사를 갔다. <br>
+        유치원은 근처 교회의 선교원을 다녔지만, 선생들이 아이들의 다리를 잡고 끌고 다니거나, 밥을 늦게 먹는다고 하루종일 반 밖에서 벌을 세우는 등.. 많은 체벌이 있었다. <br>
+         <br>
+        2011년, 근처 초등학교였던 신곡초등학교에 입학하게 되었다. 신곡초등학교에서는 4학년 1학기를 채 끝내기도 전에 이사를 가게 되어서, 결국 그곳에서 졸업하지 못 한 체 전학을 가게 되었다. <br>
+        나의 첫 번째 전학이었다.</p>
+      </div>
+
+      <div class="border"></div>
+
+      <div class="image-container">
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3254.9865423620304!2d129.00698117550863!3d35.33115567270224!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x356897c88e956c2b%3A0x5d9dfb325e6f5766!2z7Zmp7IKw7LSI65Ox7ZWZ6rWQ!5e0!3m2!1sko!2skr!4v1701871936335!5m2!1sko!2skr"
+        width="350"
+        height="250"
+        style="border:0;"
+        allowfullscreen=""
+        loading="lazy"
+        referrerpolicy="no-referrer-when-downgrade">
+        </iframe>
+        <p class="image-description">양산으로 처음 이사를 가서 <br> 새로운 학교가 지어지기 전 까지 짧게 다녔던 초등학교</p>
+      </div>
+      <div class="qwerty">
+        <h3>이사를 가다</h3>
+        <p>2014년 4월 쯤에 나는 경상남도 양산시로 이사를 가게 된다. <br>
+        그곳은 신도시 공사가 한창이었기 때문에 집 근처에 학교가 없었어서 조금 멀리 있는 학교에 다니게 되었다. <br>
+        나는 어릴 적에 친구 사귀는 것을 정말로 힘들어 했었는데, 이사를 가고 전학을 가게 되면서 초등학교 시절 친구들이 모두 사라지게 되었다.
+        그런 상황에서 나는 1년을 외롭게 보내는 가 싶었으나, 그것은 1년만이 그렇게 되는것은 아니었다.</p>
+      </div>
+
+      <div class="border"></div>
+
+      <div class="image-container">
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3254.7445886642677!2d129.01703417550894!3d35.33716347270034!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3568979abcb2e5f9%3A0xea09d1f7a895819f!2z7Iug7KO87LSI65Ox7ZWZ6rWQ!5e0!3m2!1sko!2skr!4v1701872316368!5m2!1sko!2skr"
+        width="350"
+        height="250"
+        style="border:0;"
+        allowfullscreen=""
+        loading="lazy"
+        referrerpolicy="no-referrer-when-downgrade">
+        </iframe>
+        <p class="image-description">집 근처에 새로운 학교가 지어지면서 <br> 또 다시 전학가게 된 학교</p>
+      </div>
+      <div class="qwerty">
+        <h3>집 근처로 전학오다</h3>
+        <p>2015년, 초등학교 5학년이 되는 때에 신주초등학교로 전학을 또 다시 가게 되고, 이제 그곳에서 졸업하게 된다.<br>
+        나는 여전히 친구가 없었다. 다른 애들은 해봐야 자기 동네에서 전학하는 경우라 친구가 있었지만,
+        나는 애초부터 친구가 없기도 했고, 친구 사귀는 데에도 어려움이 있었고, 암튼 그랬기 때문에 또 다시 걱정은 없지만 상기해보면 암울한 초등학교 시절을 끝내게 된다.<br>
+        <br>
+        참고로 어느 정도로 친구가 없었느냐 하면 6학년때 반장이었는데, 선생님도 그렇고 반 애들도 그렇고 이미 버스에 조용히 타 있던 나를 찾느라 소동이 생겼을 정도.</p>
+      </div>
+
+      <div class="border"></div>
+
+      <div class="image-container">
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3254.8402137447765!2d129.01248347550884!3d35.334789172701036!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x35689796c9e149a3%3A0x1fe042bf4e8b4cf8!2z7Iug7KO87KSR7ZWZ6rWQ!5e0!3m2!1sko!2skr!4v1701872898325!5m2!1sko!2skr"
+        width="350"
+        height="250"
+        style="border:0;"
+        allowfullscreen=""
+        loading="lazy"
+        referrerpolicy="no-referrer-when-downgrade">
+        </iframe>
+        <p class="image-description">평준화지역에서 다행스럽게도 <br>가장 가까운 거리에 걸린 중학교 </p>
+      </div>
+      <div class="qwerty">
+        <h3>중학교 전직</h3>
+        <p>중학교에 가게 됐다. 그렇게 됐다. <br>
+        조금씩 친구가 생겼다. 그러다가 내 인생을 뒤흔든 친구가 나타났다. [신주싱어즈]라는 합창단 동아리에서 1학년부터 활동하고 있던 친구로부터 가입 권유를 받고 별 생각없이 본 오디션에 합격했다.<br>
+        꼴에 베이스 파트장까지 올라간 나는 그 때부터 예체능에 대한 눈을 뜬 것 같다.  그 친구는 결국 음대를 갔고, 나는 음악은 아니지만 미술을 찾아서, 미대를 찾아서 여기를 왔다. 그 때부터 예체능에 대한 눈을 뜬 것 같다.<br>
+        <br>
+        나름 동아리 덕분에 열심히 살았던 시기.</p>
+      </div>
+
+
+
+
+    </section>
+    <br><br><br>
+
+  <div class="clear">
+
+  </div>
+  <br><br><br><br><br>
+
+
+
+  <footer>
+      <div class="left">
+       <h3>조준희:모이</h3>
+       <p>email: chojh9386@icloud.com <br>
+       instagram: @moie.life @moie.works </p>
+      </div>
+      <div class="left">
+        <h3> <br> </h3>
+        <p>경기도 의왕시 계원대학로 36 <br>
+        경상남도 양산시 물금읍 신주1길 </p>
+      </div>
+      <div class="right">
+        <img src="./img/foo_2.png" height="150px;">
+      </div>
+
+  </footer>
+
+
+
+
+</body>
+
+
+
+</html>

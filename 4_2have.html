@@ -1,0 +1,290 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>모이라이프/모이워크</title>
+    <style media="screen">
+      .clear {
+        clear: both;
+      }
+
+      body {
+        font-family: 'Noto Sans KR'
+      }
+
+      header {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        width: auto;
+        height: 100px;
+        margin-top: 10px;
+        border-bottom: solid 2px black;
+      }
+      #top {
+        margin: 0;
+        text-align: center;
+        font-size: 30px;
+        font-weight: bold;
+      }
+
+      nav {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: auto;
+        height: 70px;
+        margin-bottom: 10px;
+        border-bottom: solid 2px black;
+      }
+      nav ul {
+        list-style: none;
+        padding: 0;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        display: flex;
+      }
+      nav li {
+        margin-right: 40px;
+        margin-left: 40px;
+        align: center;
+      }
+      nav a {
+        text-decoration: none;
+        color: black;
+        display: inline-block;
+        transition: color 3s;
+      }
+      nav li:hover {
+        background-color: #F2F2F2;
+      }
+      nav .active {
+        background-color: #F2F2F2;
+        font-weight: bold;
+      }
+
+
+            section {
+              width: auto;
+              height: auto;
+              margin-top: 10px;
+              float: left;
+            }
+            ul {
+              list-style-type: none;
+            }
+            .image-container {
+              text-align: center;
+              margin-top: 20px;
+              margin-bottom: 20px;
+              float: left;
+              margin-left: 150px;
+              margin-right: 20px;
+            }
+            .image-container img {
+              width: 200px;
+              height: auto;
+              border: solid 1px gray;
+            }
+            .qwerty-container {
+              display: flex;
+              justify-content: space-between;
+            }
+            .qwerty {
+              width: 200px;
+              margin-right: 100px;
+            }
+            .red {
+              font-weight: bold;
+              color: red;
+            }
+            .otxt {
+              width: 350px;
+            }
+            .content {
+              display: flex;
+              justify-content: space-between;
+              margin-bottom: 200px;
+            }
+            .content div {
+              width: auto;
+              height: auto;
+            }
+            .content div:first-child {
+              flex: 1;
+              margin-bottom: 20px;
+            }
+            .border {
+              text-align: center;
+              clear: both;
+              margin: auto;
+              border-bottom: solid 1px black;
+              width: 90%;
+            }
+
+
+            footer {
+              justify-content: space-between;
+              width: auto;
+              height: 130px;
+              margin-top: 10px;
+              border-top: solid 2px black;
+
+            }
+            footer h3 {
+              font-size: 20px;
+
+            }
+            .left {
+              float: left;
+              margin-left: 10px;
+            }
+            .right {
+              float: right;
+              margin-right: 10px;
+            }
+
+    </style>
+  </head>
+  <body>
+    <header>
+      <a href="index.html"> <img src="./img/main_logo.png" height="80px;"> </a>
+      <div id="top" style="display: flex; justify-content: center; width: auto;">
+        <h3 style=>가진 것들</h3>
+      </div>
+    </header>
+
+    <nav>
+      <ul>
+        <li> <a href="2_1about.html">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;나에 대하여&nbsp;&nbsp;&nbsp;&nbsp;</a></li>
+        <li> <a href="3_1before.html">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;살아온 길&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</a></li>
+        <li class="active"> <a href="4_1have.html">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;가진것들&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</a></li>
+        <li> <a href="5_1fut.html">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;살아갈 길&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</a></li>
+        <li> <a href="6works.html">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;작업 엿보기&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</a></li>
+      </ul>
+    </nav>
+    <nav>
+      <ul>
+        <li> <a href="4_1have.html">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;물질&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</a> </li>
+        <li class="active"> <a href="4_2have.html">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;추억&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</a> </li>
+      </ul>
+    </nav>
+
+    <section>
+      <div class="image-container">
+        <img src="./img/tum1.jpg" alt="">
+      </div>
+      <div class="qwerty-container">
+        <div class="qwerty">
+          <ul>
+            <li> <h3>[@moie.videos]</h3> </li>
+            <li>{역겨움🤢주의보} 입시 놓은 고3의 흰여울 문화마을 탐방</li>
+            <li>⭐️⭐️⭐️⭐️⭐️(5)</li>
+          </ul>
+        </div>
+        <div class="otxt">
+        <br><br> 감마가 묘하게 틀어져서 랜더링만 11번 한 영상
+        </div>
+      </div>
+
+<br>
+      <div class="border"></div>
+
+      <div class="image-container">
+        <img src="./img/tum2.jpg" alt="">
+      </div>
+      <div class="qwerty-container">
+        <div class="qwerty">
+          <ul>
+            <li> <h3>[@moie.videos]</h3> </li>
+            <li>(무편집) 졸업사진</li>
+            <li>⭐️⭐️⭐️⭐️⭐️(5)</li>
+          </ul>
+        </div>
+        <div class="otxt">
+          <br><br>22.07.01 졸업사진촬영 실황
+        </div>
+      </div>
+
+      <div class="border"></div>
+
+      <div class="image-container">
+        <img src="./img/tum3.jpg">
+      </div>
+      <div class="qwerty-container">
+        <div class="qwerty">
+          <ul>
+            <li> <h3>[@moie.videos]</h3> </li>
+            <li>폐허 구동영상</li>
+            <li>⭐️⭐️⭐️⭐️⭐️(5)</li>
+          </ul>
+        </div>
+        <div class="otxt">
+          <br><br>유니티를 활용하여 폐허속 광고판을 컨셉으로 그간의 과제물을 전시하는 프로그램을 만들었다. 프로그램을 켜면 제일 처음 나오는 조작법 안내 화면을 비롯하여 개인 로고와 성스러운 곳과 디자인기초, 기획기초, 영상기초, 실감미디어기초에서 만들었던 작업물들과 재미로 만들었거나 최종 작업물에는 포함되지 못한 작업물 등을 모아 둔 자투리 모음집 화면으로 구성하였다. 사용자는 여타의 1인칭 게임과 같이 키보드 및 마우스로 화면을 조작할 수 있으며, 하단의 흰 사각형을 누르면 각각의 장면으로 빠르게 이동할 수 있도록 만들어 두었다.
+<br>
+버튼과 광고판, 신전은 프로빌더를 이용해 직접 만들었고, 지형과 비 이펙트 또한 직접 수정하며 만들었다. 물, 스카이박스, 다른 구조물들은 유니티 에셋스토어에서 무료로 판매중인 에셋만을 사용했다.
+<br>
+기획기초, 영상기초, 실감미디어기초에서 송출되고 있는 영상들은 비디오플레이어 인스펙터에서 루프와 뮤트 기능을 이용하여 조작하지 않아도 프로그램이 동작하는 중에는 항상 재생되도록 설정해 놓았다.
+<br>
+메인 카메라에서 포스트프로세싱 기능을 이용하여 색감을 사실적으로 표현하려 했다. 지형과 환경의 설정은 만족스럽게 되었으나, 반대로 작업물까지 색이 왜곡되게 보이는 현상은 결국 해결하지 못하고 컨셉에 맞아 보일 수 있도록 더 왜곡되어 보이게 수정했다. <br><br><br>
+        </div>
+
+      </div>
+
+      <div class="border">  </div>
+
+      <div class="image-container">
+        <img src="./img/tum4.jpg">
+      </div>
+      <div class="qwerty-container">
+        <div class="qwerty">
+          <ul>
+            <li><h3>[@moie.videos]</h3></li>
+            <li>드라이아이스뛰기</li>
+            <li>⭐️⭐️⭐️⭐️⭐️(5)</li>
+          </ul>
+        </div>
+        <div class="otxt">
+          <br><br>종강 하루 전날
+        </div>
+      </div>
+
+
+
+    </section>
+
+
+    <br><br><br>
+
+  <div class="clear">
+
+  </div>
+  <br><br><br><br><br>
+
+
+  <footer>
+      <div class="left">
+       <h3>조준희:모이</h3>
+       <p>email: chojh9386@icloud.com <br>
+       instagram: @moie.life @moie.works </p>
+      </div>
+      <div class="left">
+        <h3> <br> </h3>
+        <p>경기도 의왕시 계원대학로 36 <br>
+        경상남도 양산시 물금읍 신주1길 </p>
+      </div>
+      <div class="right">
+        <img src="./img/foo_2.png" height="150px;">
+      </div>
+
+  </footer>
+
+
+
+
+</body>
+
+
+
+</html>

@@ -1,0 +1,273 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>모이라이프/모이워크</title>
+    <style media="screen">
+      .clear {
+        clear: both;
+      }
+
+      body {
+        font-family: 'Noto Sans KR'
+      }
+
+      header {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        width: auto;
+        height: 100px;
+        margin-top: 10px;
+        border-bottom: solid 2px black;
+      }
+      #top {
+        margin: 0;
+        text-align: center;
+        font-size: 30px;
+        font-weight: bold;
+      }
+
+      nav {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: auto;
+        height: 70px;
+        margin-bottom: 10px;
+        border-bottom: solid 2px black;
+      }
+      nav ul {
+        list-style: none;
+        padding: 0;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        display: flex;
+      }
+      nav li {
+        margin-right: 40px;
+        margin-left: 40px;
+        align: center;
+      }
+      nav a {
+        text-decoration: none;
+        color: black;
+        display: inline-block;
+        transition: color 3s;
+      }
+      nav li:hover {
+        background-color: #F2F2F2;
+      }
+      nav .active {
+        background-color: #F2F2F2;
+        font-weight: bold;
+      }
+
+
+            section {
+              width: auto;
+              height: auto;
+              margin-top: 10px;
+              float: left;
+            }
+            ul {
+              list-style-type: none;
+            }
+            .image-container {
+              text-align: center;
+              margin-top: 20px;
+              margin-bottom: 20px;
+              float: left;
+              margin-left: 150px;
+              margin-right: 20px;
+            }
+            .image-container img {
+              width: 200px;
+              height: auto;
+              border: solid 1px gray;
+            }
+            .qwerty-container {
+              display: flex;
+              justify-content: space-between;
+            }
+            .qwerty {
+              width: 200px;
+              margin-right: 100px;
+            }
+            .red {
+              font-weight: bold;
+              color: red;
+            }
+            .otxt {
+              width: 500px;
+            }
+            .content {
+              display: flex;
+              justify-content: space-between;
+              margin-bottom: 200px;
+            }
+            .content div {
+              width: auto;
+              height: auto;
+            }
+            .content div:first-child {
+              flex: 1;
+              margin-bottom: 20px;
+            }
+            .border {
+              text-align: center;
+              clear: both;
+              margin: auto;
+              border-bottom: solid 1px black;
+              width: 90%;
+            }
+
+
+            footer {
+              justify-content: space-between;
+              width: auto;
+              height: 130px;
+              margin-top: 10px;
+              border-top: solid 2px black;
+
+            }
+            footer h3 {
+              font-size: 20px;
+
+            }
+            .left {
+              float: left;
+              margin-left: 10px;
+            }
+            .right {
+              float: right;
+              margin-right: 10px;
+            }
+
+    </style>
+  </head>
+  <body>
+    <header>
+      <a href="index.html"> <img src="./img/main_logo.png" height="80px;"> </a>
+      <div id="top" style="display: flex; justify-content: center; width: auto;">
+        <h3 style=>가진 것들</h3>
+      </div>
+    </header>
+
+    <nav>
+      <ul>
+        <li> <a href="2_1about.html">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;나에 대하여&nbsp;&nbsp;&nbsp;&nbsp;</a></li>
+        <li> <a href="3_1before.html">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;살아온 길&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</a></li>
+        <li class="active"> <a href="4_1have.html">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;가진것들&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</a></li>
+        <li> <a href="5_1fut.html">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;살아갈 길&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</a></li>
+        <li> <a href="6works.html">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;작업 엿보기&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</a></li>
+      </ul>
+    </nav>
+    <nav>
+      <ul>
+        <li class="active"> <a href="4_1have.html">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;물질&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</a> </li>
+        <li> <a href="4_2have.html">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;추억&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</a> </li>
+      </ul>
+    </nav>
+
+    <section>
+      <div class="image-container">
+        <img src="./img/MBP.png" alt="">
+      </div>
+      <div class="qwerty-container">
+        <div class="qwerty">
+          <ul>
+            <li> <h3>[Apple]</h3> </li>
+            <li>M1 MacBook Pro "13</li>
+            <li>⭐️⭐️⭐️⭐️⭐️(5)</li>
+          </ul>
+        </div>
+        <div class="otxt">
+        <br><br> 없으면 과제도 못 하고 놀지도 못 하는.. <br> 괭장히 중요한 물품
+        </div>
+      </div>
+
+<br>
+      <div class="border"></div>
+
+      <div class="image-container">
+        <img src="./img/laz.jpg" alt="">
+      </div>
+      <div class="qwerty-container">
+        <div class="qwerty">
+          <ul>
+            <li> <h3>[@moie.work]</h3> </li>
+            <li>레이저 수녀</li>
+            <li>⭐️⭐️⭐️(3)</li>
+          </ul>
+        </div>
+        <div class="otxt">
+          <br><br>집 안의 분위기 형성에 큰 기여를 하는 멋진 그림 <br>
+          고등학교 축제 전시회에도 나갔던 작품
+        </div>
+      </div>
+
+      <div class="border"></div>
+
+      <div class="image-container">
+        <img src="./img/kor.jpeg">
+      </div>
+      <div class="qwerty-container">
+        <div class="qwerty">
+          <ul>
+            <li> <h3>[민음사]</h3> </li>
+            <li>한국이 싫어서 <br> <b>장강명</b> 저 </li>
+            <li>⭐️⭐️⭐️⭐️⭐️(5)</li>
+          </ul>
+        </div>
+        <div class="otxt">
+          <br><br>고3의 반 책장에 왜 이게 있었는지 모를 책 <br>
+          나를 수시 직전에 서울로 가출하게 만들었던 책 <br>
+          내가 기어이 서울로 대학을 오게 만드는 데 큰 영향을 미친 책 <br>
+          내가 프랑스 이민을 꿈꾸게 하는데 큰 영향을 미친 책 <br>
+
+
+        </div>
+
+      </div>
+
+
+
+
+    </section>
+
+
+    <br><br><br>
+
+  <div class="clear">
+
+  </div>
+  <br><br><br><br><br>
+
+
+  <footer>
+      <div class="left">
+       <h3>조준희:모이</h3>
+       <p>email: chojh9386@icloud.com <br>
+       instagram: @moie.life @moie.works </p>
+      </div>
+      <div class="left">
+        <h3> <br> </h3>
+        <p>경기도 의왕시 계원대학로 36 <br>
+        경상남도 양산시 물금읍 신주1길 </p>
+      </div>
+      <div class="right">
+        <img src="./img/foo_2.png" height="150px;">
+      </div>
+
+  </footer>
+
+
+
+
+</body>
+
+
+
+</html>

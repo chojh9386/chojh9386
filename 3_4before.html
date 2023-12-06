@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>모이라이프/모이워크</title>
+    <style media="screen">
+      .clear {
+        clear: both;
+      }
+
+      body {
+        font-family: 'Noto Sans KR'
+      }
+
+      header {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        width: auto;
+        height: 100px;
+        margin-top: 10px;
+        border-bottom: solid 2px black;
+      }
+      #top {
+        margin: 0;
+        text-align: center;
+        font-size: 30px;
+        font-weight: bold;
+      }
+
+      nav {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: auto;
+        height: 70px;
+        margin-bottom: 10px;
+        border-bottom: solid 2px black;
+      }
+      nav ul {
+        list-style: none;
+        padding: 0;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        display: flex;
+      }
+      nav li {
+        margin-right: 40px;
+        margin-left: 40px;
+        align: center;
+      }
+      nav a {
+        text-decoration: none;
+        color: black;
+        display: inline-block;
+        transition: color 3s;
+      }
+      nav li:hover {
+        background-color: #F2F2F2;
+      }
+      nav .active {
+        background-color: #F2F2F2;
+        font-weight: bold;
+      }
+
+      section {
+        width: auto;
+        height: auto;
+        margin-top: 10px;
+        float: left;
+      }
+
+      .image-container {
+        text-align: center;
+        margin-top: 20px;
+        float: left;
+        margin-left: 150px;
+        margin-right: 20px;
+      }
+      .image-container img {
+        width: 200px;
+        height: auto;
+        border: solid 1px gray;
+      }
+      .image-description{
+        margin-top: 10px;
+        text-align: center;
+        font-size: 12px;
+        color: gray;
+      }
+      .qwerty {
+        float: left;
+        width: 500px;
+        margin-right: auto;
+      }
+      .content {
+        display: flex;
+        justify-content: space-between;
+        margin-bottom: 50px;
+      }
+      .content div {
+        width: auto;
+        height: auto;
+      }
+      .content div:first-child {
+        flex: 1;
+        margin-bottom: 20px;
+      }
+      .border {
+        text-align: center;
+        clear: both;
+        margin: auto;
+        border-bottom: solid 1px black;
+        width: 80%;
+      }
+
+      footer {
+        justify-content: space-between;
+        width: auto;
+        height: 130px;
+        margin-top: 10px;
+        border-top: solid 2px black;
+
+      }
+      footer h3 {
+        font-size: 20px;
+
+      }
+      .left {
+        float: left;
+        margin-left: 10px;
+      }
+      .right {
+        float: right;
+        margin-right: 10px;
+      }
+
+    </style>
+  </head>
+  <body>
+    <header>
+      <a href="index.html"> <img src="./img/main_logo.png" height="80px;"> </a>
+      <div id="top" style="display: flex; justify-content: center; width: auto;">
+        <h3 style=>살아온 길</h3>
+      </div>
+    </header>
+
+    <nav>
+      <ul>
+        <li> <a href="2_1about.html">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;나에 대하여&nbsp;&nbsp;&nbsp;&nbsp;</a></li>
+        <li class="active"> <a href="3_1before.html">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;살아온 길&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</a></li>
+        <li> <a href="4_1have.html">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;가진것들&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</a></li>
+        <li> <a href="5_1fut.html">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;살아갈 길&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</a></li>
+        <li> <a href="6works.html">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;작업 엿보기&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</a></li>
+      </ul>
+    </nav>
+
+    <nav>
+      <ul>
+        <li> <a href="3_1before.html">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;영아&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</a> </li>
+        <li> <a href="3_2before.html">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;초중등&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</a> </li>
+        <li> <a href="3_3before.html">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;고등&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</a> </li>
+        <li class="active"> <a href="3_4before.html">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;대학&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</a> </li>
+      </ul>
+    </nav>
+
+    <section>
+      <div class="image-container">
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1585.2251561318685!2d126.97541873873847!3d37.37918154302195!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x357b5fd3a22f1807%3A0x9bc35489a1c1e763!2z6rOE7JuQ7JiI7Iig64yA7ZWZ6rWQ!5e0!3m2!1sko!2skr!4v1701875494974!5m2!1sko!2skr"
+        width="350"
+        height="250"
+        style="border:0;"
+        allowfullscreen=""
+        loading="lazy"
+        referrerpolicy="no-referrer-when-downgrade">
+        </iframe>
+        <p class="image-description">익숙한 그곳</p>
+      </div>
+      <div class="qwerty">
+        <h3>홀로 서울로</h3>
+        <p>나는 항상 서울 살이를 동경했다. 나는 남쪽의 어느 읍내에서 나라났기 때문에 화려한 도시에서 살고 싶었다. <br>
+          고등학교 2학년의 11월, 서울 명동의 어느 대형 교회에서 진행한 친척의 결혼식에 참석하지 말았어야 했다. 한강을 따라 거대한 도로를 타고 높고 빽빽한 도시의 모습을 보지 말았어야 했다.<br>
+          <br>
+          가족과 친구와 집을 혼자 떠나 고대했던 자취 생활을 시작했다.
+          <br>후회는 없다.<br><br><br><br><br><br><br><br><br><br><br><br><br><br></p>
+      </div>
+<br>
+
+
+
+    </section>
+    <br><br><br>
+
+  <div class="clear">
+
+  </div>
+  <br><br><br><br><br>
+
+
+
+  <footer>
+      <div class="left">
+       <h3>조준희:모이</h3>
+       <p>email: chojh9386@icloud.com <br>
+       instagram: @moie.life @moie.works </p>
+      </div>
+      <div class="left">
+        <h3> <br> </h3>
+        <p>경기도 의왕시 계원대학로 36 <br>
+        경상남도 양산시 물금읍 신주1길 </p>
+      </div>
+      <div class="right">
+        <img src="./img/foo_2.png" height="150px;">
+      </div>
+
+  </footer>
+
+
+
+
+</body>
+
+
+
+</html>

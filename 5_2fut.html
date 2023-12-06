@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>모이라이프/모이워크</title>
+    <style media="screen">
+      .clear {
+        clear: both;
+      }
+
+      body {
+        font-family: 'Noto Sans KR'
+      }
+
+      header {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        width: auto;
+        height: 100px;
+        margin-top: 10px;
+        border-bottom: solid 2px black;
+      }
+      #top {
+        margin: 0;
+        text-align: center;
+        font-size: 30px;
+        font-weight: bold;
+      }
+
+      nav {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: auto;
+        height: 70px;
+        margin-bottom: 10px;
+        border-bottom: solid 2px black;
+      }
+      nav ul {
+        list-style: none;
+        padding: 0;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        display: flex;
+      }
+      nav li {
+        margin-right: 40px;
+        margin-left: 40px;
+        align: center;
+      }
+      nav a {
+        text-decoration: none;
+        color: black;
+        display: inline-block;
+        transition: color 3s;
+      }
+      nav li:hover {
+        background-color: #F2F2F2;
+      }
+      nav .active {
+        background-color: #F2F2F2;
+        font-weight: bold;
+      }
+
+      section {
+        width: auto;
+        height: auto;
+        margin-top: 10px;
+        float: left;
+      }
+      ul {
+        list-style-type: none;
+      }
+      .image-container {
+        text-align: center;
+        margin-top: 20px;
+        margin-bottom: 20px;
+        float: left;
+        margin-left: 150px;
+        margin-right: 20px;
+      }
+      .image-container img {
+        width: 300px;
+        height: auto;
+        border: solid 1px gray;
+      }
+      .qwerty-container {
+        display: flex;
+        justify-content: space-between;
+      }
+      .qwerty {
+        width: 500px;
+        margin-right: 100px;
+      }
+      .red {
+        font-weight: bold;
+        color: red;
+      }
+      .otxt {
+        width: auto;
+      }
+      .content {
+        display: flex;
+        justify-content: space-between;
+        margin-bottom: 200px;
+      }
+      .content div {
+        width: auto;
+        height: auto;
+      }
+      .content div:first-child {
+        flex: 1;
+        margin-bottom: 20px;
+      }
+      .border {
+        text-align: center;
+        clear: both;
+        margin: auto;
+        border-bottom: solid 1px black;
+        width: 90%;
+      }
+
+
+      footer {
+        justify-content: space-between;
+        width: auto;
+        height: 130px;
+        margin-top: 10px;
+        border-top: solid 2px black;
+
+      }
+      footer h3 {
+        font-size: 20px;
+
+      }
+      .left {
+        float: left;
+        margin-left: 10px;
+      }
+      .right {
+        float: right;
+        margin-right: 10px;
+      }
+
+    </style>
+  </head>
+  <body>
+    <header>
+      <a href="index.html"> <img src="./img/main_logo.png" height="80px;"> </a>
+      <div id="top" style="display: flex; justify-content: center; width: auto;">
+        <h3 style=>살아갈 길</h3>
+      </div>
+    </header>
+
+    <nav>
+      <ul>
+        <li> <a href="2_1about.html">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;나에 대하여&nbsp;&nbsp;&nbsp;&nbsp;</a></li>
+        <li> <a href="3_1before.html">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;살아온 길&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</a></li>
+        <li> <a href="4_1have.html">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;가진것들&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</a></li>
+        <li class="active"> <a href="5_1fut.html">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;살아갈 길&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</a></li>
+        <li> <a href="6works.html">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;작업 엿보기&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</a></li>
+      </ul>
+    </nav>
+
+    <nav>
+      <ul>
+        <li> <a href="5_1fut.html">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;미래 희망편&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</a> </li>
+        <li class="active"> <a href="5_2fut.html">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;미래 절망편&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</a> </li>
+      </ul>
+    </nav>
+
+
+    <section>
+      <div class="image-container">
+        <img src="./img/fut2.png">
+      </div>
+      <div class="qwerty-container">
+        <div class="qwerty">
+          <h3>한국을 떠나지 못하고 지루하고 힘겹게 산다</h3>
+          <p>그냥 적당히 졸업을 하고, 적당한 때에 취업을 하고, 나대지 말고 적당히 운명에 순응하고 살아간다. <br>
+            <br>
+            한국을 떠나겠다는 허황된 꿈은 그저 학생때 잠시 악령의 목소리에 홀렸던 것으로 치부하고, 그런 일은 잊어버린 체 살아가게 된다.<br>
+            <br>
+            매일 이른 아침에 남들과 같이 일어나 남들과 같이 출근하고 남들과 같이 시체처럼 일하고 남들과 같이 뉴스를 보고 잠시 분노했다가 남들과 같이 퇴근하고
+            남들과 같이 각자의 집에서 술 한잔 하고 남들과 같이 잠자고... 마치 1984에 나오는 프롤레, 내부당원과 다를 바 없는, 성에 못 차는 삶을 살다 요절하는 삶. <br>
+          <br>
+            그냥 상상이 가능한 삶.
+          <br>
+            모두가 그냥 살아내는 삶으로.</p>
+        </div>
+
+      </div>
+
+    </section>
+    <br><br><br>
+
+  <div class="clear">
+
+  </div>
+  <br><br><br><br><br>
+
+
+
+  <footer>
+      <div class="left">
+       <h3>조준희:모이</h3>
+       <p>email: chojh9386@icloud.com <br>
+       instagram: @moie.life @moie.works </p>
+      </div>
+      <div class="left">
+        <h3> <br> </h3>
+        <p>경기도 의왕시 계원대학로 36 <br>
+        경상남도 양산시 물금읍 신주1길 </p>
+      </div>
+      <div class="right">
+        <img src="./img/foo_2.png" height="150px;">
+      </div>
+
+  </footer>
+
+
+
+
+</body>
+
+
+
+</html>

@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>모이라이프/모이워크</title>
+    <style media="screen">
+      .clear {
+        clear: both;
+      }
+
+      body {
+        font-family: 'Noto Sans KR'
+      }
+
+      header {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        width: auto;
+        height: 100px;
+        margin-top: 10px;
+        border-bottom: solid 2px black;
+      }
+      #top {
+        margin: 0;
+        text-align: center;
+        font-size: 30px;
+        font-weight: bold;
+      }
+
+      nav {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: auto;
+        height: 70px;
+        margin-bottom: 10px;
+        border-bottom: solid 2px black;
+      }
+      nav ul {
+        list-style: none;
+        padding: 0;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        display: flex;
+      }
+      nav li {
+        margin-right: 40px;
+        margin-left: 40px;
+        align: center;
+      }
+      nav a {
+        text-decoration: none;
+        color: black;
+        display: inline-block;
+        transition: color 3s;
+      }
+      nav li:hover {
+        background-color: #F2F2F2;
+      }
+      nav .active {
+        background-color: #F2F2F2;
+        font-weight: bold;
+      }
+
+      section {
+        width: auto;
+        height: auto;
+        margin-top: 10px;
+        float: left;
+      }
+      .image-container {
+        text-align: center;
+        margin-top: 20px;
+        float: left;
+        margin-left: 150px;
+        margin-right: 20px;
+      }
+      .image-container img {
+        width: 200px;
+        height: auto;
+        border: solid 1px gray;
+      }
+      .image-description{
+        margin-top: 10px;
+        text-align: center;
+        font-size: 12px;
+        color: gray;
+      }
+      .qwerty {
+        float: left;
+        margin-right: 150px;
+      }
+      .content {
+        display: flex;
+        justify-content: space-between;
+        margin-bottom: 200px;
+      }
+      .content div {
+        width: auto;
+        height: auto;
+      }
+      .content div:first-child {
+        flex: 1;
+        margin-bottom: 20px;
+      }
+
+      footer {
+        justify-content: space-between;
+        width: auto;
+        height: 130px;
+        margin-top: 10px;
+        border-top: solid 2px black;
+
+      }
+      footer h3 {
+        font-size: 20px;
+
+      }
+      .left {
+        float: left;
+        margin-left: 10px;
+      }
+      .right {
+        float: right;
+        margin-right: 10px;
+      }
+
+    </style>
+  </head>
+  <body>
+    <header>
+      <a href="index.html"> <img src="./img/main_logo.png" height="80px;"> </a>
+      <div id="top" style="display: flex; justify-content: center; width: auto;">
+        <h3 style=>나에 대하여</h3>
+      </div>
+    </header>
+
+
+    <nav>
+      <ul>
+        <li class="active"> <a href="2_1about.html">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;나에 대하여&nbsp;&nbsp;&nbsp;&nbsp;</a></li>
+        <li> <a href="3_1before.html">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;살아온 길&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</a></li>
+        <li> <a href="4_1have.html">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;가진것들&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</a></li>
+        <li> <a href="5_1fut.html">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;살아갈 길&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</a></li>
+        <li> <a href="6works.html">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;작업 엿보기&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</a></li>
+      </ul>
+    </nav>
+
+    <nav>
+      <ul>
+        <li class="active"> <a href="2_1about.html">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;@moie.life&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</a> </li>
+        <li> <a href="2_2about.html">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;@moie.works&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</a> </li>
+      </ul>
+    </nav>
+
+
+    <section class="content">
+      <div class="image-container">
+        <img src="./img/me2.png" width="200px">
+        <p class="image-description"> 부산의 어느 빈티지샵에서 <br>버킷햇 모자를 쓰고 있는 사진. </p>
+      </div>
+
+      <div class="qwerty">
+        <h3>INTP인 저는 영화 [미드소마]를 좋아하는 <br> 계원예술대학교 디지털미디어디자인과에 재학 중인 어느 학생입니다.</h3>
+        <p>&nbsp;저를 아주 조금이라도 모르시는 분들을 위해 처음부터 말씀 드리겠습니다. <br>
+        &nbsp;저는 조준희입니다. 출신 지역은 양산이라는 부산 쪼매 위에 있는 촌구석에서 왔습니다. 고등학교는 양산남부고등학교를 나왔고, 입시 미술을 한 전적도 있습니다.
+        물론 입시미술은 잘 되진 않았지만.. 아주 얻은 것이 없다곤 못 하겠지요. 펜 쓰는 방법, 종이 앞 뒷면 구분하는 방법, 팔레트 닦는 방법, 정치질로 마피아에서 이기는 방법,
+        모 유명인의 성대모사 하는 방법 등을 배웠으니까요. <br>
+        <br>
+        &nbsp;저는 보통 자유시간이 주어지는 때면 잠을 잡니다. 사람에게 있어서 질 좋은 수면은 기분을 좋게 만들고, 때에 따라서는 생산성을 더 향상시키기도 하니
+        더 없이 좋은 취미가 아니겠습니까? <br>
+        &nbsp;그리고 잠자지 않을 때에는 Florence + The Machine의 노래를 듣는답니다. 한 번씩 다 들어 보세요. 짱임. <br>
+        <br>
+        &nbsp;저의 좌우명은 인스타그램에 적혀 있는[생각이없는아이]가 아니라 카카오톡 상매에 적혀 있는 [괜찮은 사람들]입니다. 사람이 늘 1등을 할 수는 없고,
+        사람이 늘 우수할 수는 없고, 사람이 늘 최고가 될 수는 없지만 괜찮은 사람이 될 수는 있습니다. 성격이 모나지 아니하고, 각자의 위치에서 실력이 쓸모없지 않으면
+        괜찮은 사람이 될 수 있으니 모든 사람들이 과도한 경쟁을 하지 않더라도 두루 편하게 살 수 있지 않겠나요. 그래서 저의 좌우명은 [괜찮은 사람들]이 되었습니다. <br>
+        <br>
+        &nbsp;
+        </p>
+
+      </div>
+
+
+    </section>
+    <br><br><br>
+
+  <div class="clear">
+
+  </div>
+  <br><br><br><br><br>
+
+
+  <footer>
+      <div class="left">
+       <h3>조준희:모이</h3>
+       <p>email: chojh9386@icloud.com <br>
+       instagram: @moie.life @moie.works </p>
+      </div>
+      <div class="left">
+        <h3> <br> </h3>
+        <p>경기도 의왕시 계원대학로 36 <br>
+        경상남도 양산시 물금읍 신주1길 </p>
+      </div>
+      <div class="right">
+        <img src="./img/foo_2.png" height="150px;">
+      </div>
+
+  </footer>
+
+
+
+
+</body>
+
+
+
+</html>
